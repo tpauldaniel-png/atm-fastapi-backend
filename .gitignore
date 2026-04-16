@@ -1,0 +1,77 @@
+# =========================
+# Virtual Environment
+# =========================
+venv/
+env/
+ENV/
+
+# =========================
+# Environment Variables / Secrets
+# =========================
+.env
+*.env
+
+# =========================
+# Python Cache / Compiled Files
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# VS Code / IDE Settings
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS Generated Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Database Files (if SQLite/testing)
+# =========================
+*.db
+*.sqlite3
+
+# =========================
+# Testing / Coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Alembic / Migration Cache
+# =========================
+alembic/__pycache__/
+
+# =========================
+# mypy / type checker cache
+# =========================
+.mypy_cache/
+
+# =========================
+# Ruff / Lint cache
+# =========================
+.ruff_cache/
+
+# =========================
+# Build / Distribution
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.bak
