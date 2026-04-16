@@ -35,6 +35,15 @@ app/
 ├── utils.py
 ├── database.py
 └── main.py
+
+
+```
+## API Documentation
+
+Swagger UI available at:
+
+```bash
+http://127.0.0.1:8000/docs
 ```
 
 
