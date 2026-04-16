@@ -22,7 +22,9 @@ A RESTful ATM backend simulation project built using FastAPI, SQLAlchemy, Postgr
 - pwdlib + Argon2
 
 
-Project Structure
+## Project Structure
+
+```bash
 app/
 │
 ├── crud/
@@ -33,6 +35,8 @@ app/
 ├── utils.py
 ├── database.py
 └── main.py
+```
+
 
 
 
