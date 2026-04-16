@@ -7,7 +7,6 @@ A RESTful ATM backend simulation project built using FastAPI, SQLAlchemy, Postgr
 - User Registration and Login
 - JWT Authentication and Authorization
 - Secure Password Hashing with Argon2
-- Bank and ATM Management
 - Account Creation
 - Deposit / Withdrawal Operations
 - Balance Inquiry
@@ -21,6 +20,21 @@ A RESTful ATM backend simulation project built using FastAPI, SQLAlchemy, Postgr
 - SQLAlchemy
 - JWT / OAuth2
 - pwdlib + Argon2
+
+
+Project Structure
+app/
+│
+├── crud/
+├── routers/
+├── schemas/
+├── models.py
+├── oauth2.py
+├── utils.py
+├── database.py
+└── main.py
+
+
 
 ## Installation
 
