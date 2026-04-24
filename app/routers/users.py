@@ -14,7 +14,7 @@ router = APIRouter(
 
 
 @router.post("/", response_model=user_schemas.UserCreateResponse, status_code=status.HTTP_201_CREATED)
-def create_user(user: user_schemas.UserCreate, db: Session = Depends(get_db),user_id: int = Depends(oauth2.get_current_user)):
+def create_user(user: user_schemas.UserCreate, db: Session = Depends(get_db)):
     
     new_user = crud_users.create_user(user, db)
 
