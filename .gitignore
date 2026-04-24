@@ -2,7 +2,7 @@
 # Virtual Environment
 # =========================
 venv/
-env/
+.env
 ENV/
 
 # =========================
